@@ -1,0 +1,19 @@
+{
+  "name": "vite-plugin-custom-index",
+  "version": "1.0.2",
+  "description": "vite plugin custom index",
+  "main": "index.js",
+  "scripts": {
+    "release": "tsc index.ts && npm publish --registry=https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "whilconn",
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "vite": "^3.0.9"
+  }
+}
