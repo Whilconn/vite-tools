@@ -1,7 +1,7 @@
 {
-  "name": "vite-plugin-custom-index",
-  "version": "1.0.2",
-  "description": "vite plugin custom index",
+  "name": "vite-plugin-index-fallback",
+  "version": "1.0.0",
+  "description": "vite plugin index fallback",
   "main": "index.js",
   "scripts": {
     "release": "tsc index.ts && npm publish --registry=https://registry.npmjs.org/"

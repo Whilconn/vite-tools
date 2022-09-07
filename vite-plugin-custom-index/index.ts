@@ -2,8 +2,8 @@ import * as fs from 'fs';
 import { resolve } from 'path';
 import { ViteDevServer } from 'vite';
 
-export const customIndexPlugin = (indexPath: string) => ({
-  name: 'vite-plugin-custom-index',
+export const indexFallbackPlugin = (indexPath: string) => ({
+  name: 'vite-plugin-index-fallback',
   configureServer(server: ViteDevServer) {
     indexPath = indexPath.replace(/^[\\/]/, '');
 
